@@ -11,9 +11,9 @@ const space_mono = Space_Mono({
 export default function RootLayout({ children } : Readonly < { children: React.ReactNode } > ) {
     return (
       <html>
-          <body className = {space_mono.className}>
-              {children}
-          </body>
+        <body className = {space_mono.className}>
+          {children}
+        </body>
       </html>
     )
 }

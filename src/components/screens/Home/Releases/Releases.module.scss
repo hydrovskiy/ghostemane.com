@@ -28,6 +28,39 @@
     box-shadow: -3px -3px 10px rgba(173, 173, 173, .4), 2px 2px 7px rgba(102, 102, 102, .4);
 }
 
+@media screen and (max-width: 1080px) {
+
+    .Title {
+        width: 575px;
+        height: 100px;
+    }
+
+    .Container {
+        max-width: 850px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 880px) {
+
+    .Album {
+        width: 725px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .Title {
+        width: 450px;
+        height: 75px;
+    }
+
+    .Album {
+        width: 500px;
+        height: 550px;
+    }
+}
+
 @media screen and (max-width: 480px) {
 
     .Title {

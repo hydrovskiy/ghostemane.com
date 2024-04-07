@@ -21,6 +21,68 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 1280px) {
+    
+    .Home {
+        height: 575vh;
+    }
+
+    .Container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .Logo {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+   
+    .Home {
+        height: 575vh;
+    }
+
+    .Container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 880px) {
+
+    .Home {
+        height: 575vh;
+    }
+
+    .Container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .Consert {
+        width: 700px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .Home {
+        height: 530vh;
+    }
+
+    .Container {
+        max-width: 575px;
+        margin: 0 auto;
+    }
+
+    .Consert {
+        width: 500px;
+        height: 300px;
+    }
+}
+
 @media screen and (max-width: 480px) {
 
     .Home {

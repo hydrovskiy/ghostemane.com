@@ -27,6 +27,25 @@
     box-shadow: -2px -2px 7px rgba(204, 204, 204, .3), 2px 1px 7px rgba(102, 102, 102, .4);
 }
 
+@media screen and (max-width: 1080px) {
+
+    .Ticket {
+        font-size: 16px;
+        padding: 13px 25px;
+    }
+
+    .Test {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .Test {
+        margin-top: 10px;
+    }
+}
+
 @media screen and (max-width: 480px) {
 
     .Ticket {

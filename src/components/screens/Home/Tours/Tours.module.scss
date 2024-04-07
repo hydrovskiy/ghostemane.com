@@ -12,6 +12,32 @@
     padding: 100px 100px 120px;
 }
 
+@media screen and (max-width: 1080px) {
+
+    .Title {
+        width: 575px;
+        height: 75px;
+    }
+
+    .Container {
+        max-width: 850px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .Title {
+        width: 300px;
+        height: 75px;
+    }
+
+    .Container {
+        max-width: 625px;
+        margin: 0 auto;
+    }
+}
+
 @media screen and (max-width: 480px) {
 
     .Title {

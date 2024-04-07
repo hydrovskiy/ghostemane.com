@@ -17,6 +17,17 @@
     text-decoration: none;
 }
 
+@media screen and (max-width: 680px) {
+
+    .Menu ul {
+        display: none;
+    }
+
+    .Menu h1 {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 480px) {
 
     .Menu ul {
