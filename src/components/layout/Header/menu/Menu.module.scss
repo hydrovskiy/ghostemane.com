@@ -1,0 +1,29 @@
+.Menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+    padding-top: 15px;
+}
+
+.Menu ul {
+    display: flex;
+    gap: 50px;
+}
+
+.Menu a {
+    font-size: 20px;
+    color: #191919;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+
+    .Menu ul {
+        display: none;
+    }
+
+    .Menu h1 {
+        display: none;
+    }
+}

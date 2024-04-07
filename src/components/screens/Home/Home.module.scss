@@ -1,0 +1,40 @@
+.Home {
+    background-color: var(--gray-color);
+    height: 1000vh;
+}
+
+.Container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.Logo {
+    display: flex;
+    width: 65vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.Consert {
+    display: flex;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+
+    .Home {
+        height: 525vh;
+    }
+
+    .Container {
+        max-width: 325px;
+        margin: 0 auto;
+    }
+
+    .Consert {
+        width: 330px;
+        height: 225px;
+    }
+
+}

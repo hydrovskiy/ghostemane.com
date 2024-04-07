@@ -1,0 +1,41 @@
+.Ticket {
+    display: flex;
+    cursor: pointer;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #8A8C8C;
+    color: #4D4D4D;
+    padding: 18px 32px;
+    border: 2px solid #8A8C8C;
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    box-shadow: -2px -2px 7px rgba(204, 204, 204, .3), 2px 1px 7px rgba(102, 102, 102, .4);
+}
+
+.Test {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #8A8C8C;
+    color: #4D4D4D;
+    padding: 10px 32px;
+    border: 2px solid #8A8C8C;
+    border-radius: 30px;
+    text-transform: uppercase;
+    box-shadow: -2px -2px 7px rgba(204, 204, 204, .3), 2px 1px 7px rgba(102, 102, 102, .4);
+}
+
+@media screen and (max-width: 480px) {
+
+    .Ticket {
+        font-size: 17px;
+        padding: 10px 20px;
+    }
+
+    .Test {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+}
