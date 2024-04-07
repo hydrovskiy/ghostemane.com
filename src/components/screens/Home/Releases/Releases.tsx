@@ -4,7 +4,7 @@ import styles from './Releases.module.scss'
 
 export function Releases() {
     return (
-    <section className = {styles.Releases}>
+    <section className = {styles.Releases} id = 'releases'>
         <Image className = {styles.Title} src = '/Releases.svg' alt = 'Release Title' width = { 700 } height = { 100 } />
             <div className = {styles.Container}>
                 <div className = {styles.Card}>

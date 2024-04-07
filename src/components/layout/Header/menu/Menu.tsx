@@ -10,9 +10,8 @@ export default function Menu() {
         </Link>
         <ul>
             <li><Link href = '/'>Home</Link></li>
-            <li><Link href = '/releases'>Releases</Link></li>
-            <li><Link href = '/tour'>Tours</Link></li>
-            <li><Link href = '/merch'>Our merch</Link></li>
+            <li><Link href = '#releases'>Releases</Link></li>
+            <li><Link href = '#tours'>Tours</Link></li>
         </ul>
     </nav>
     </div>
