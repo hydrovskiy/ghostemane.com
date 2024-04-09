@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
+import { TourInfo } from '@/ui/TourInfo/TourInfo'
 import styles from './Tours.module.scss'
-import { TourInfo } from '@/components/ui/TourInfo/TourInfo'
 
 export function Tours() {
     return (

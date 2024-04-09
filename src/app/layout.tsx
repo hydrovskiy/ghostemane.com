@@ -1,6 +1,6 @@
 import { Space_Mono } from 'next/font/google'
 
-import '../src/assets/styles/global.scss'
+import '@/styles/global.scss'
 
 const space_mono = Space_Mono({
     display: 'swap',
