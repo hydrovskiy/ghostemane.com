@@ -1,6 +1,6 @@
 # GHOSTEMANE
 
-![Website](./public/Preview.png)
+![Preview](./public/Preview.png)
 
 Копия сайта исполнителя GHOSTEMANE переписанная на NextJS. 
 
