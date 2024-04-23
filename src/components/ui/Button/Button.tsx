@@ -1,11 +1,15 @@
 'use client'
 
-import styles from './Button.module.scss'
+import styles from './Button.module.scss';
 
-export function TicketButton() {
-    return <button className = {styles.Ticket}>Buy tickets</button>
+export function BuyButton() {
+    return (
+        <button className={styles.BuyButton}>Buy tickets</button>
+    )
 }
 
-export function TestButton() {
-    return <button className = {styles.Test}>Tickets</button>
+export function TicketsButton() {
+    return (
+        <button className = {styles.TicketsButton}>Tickets</button>
+    )  
 }

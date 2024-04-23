@@ -1,4 +1,4 @@
-.Ticket {
+.BuyButton {
     display: flex;
     cursor: pointer;
     margin: 0 auto;
@@ -14,7 +14,7 @@
     box-shadow: -2px -2px 7px rgba(204, 204, 204, .3), 2px 1px 7px rgba(102, 102, 102, .4);
 }
 
-.Test {
+.TicketsButton {
     cursor: pointer;
     font-size: 20px;
     font-weight: 400;
@@ -29,31 +29,31 @@
 
 @media screen and (max-width: 1080px) {
 
-    .Ticket {
+    .BuyButton {
         font-size: 16px;
         padding: 13px 25px;
     }
 
-    .Test {
+    .TicketsButton {
         font-size: 16px;
     }
 }
 
 @media screen and (max-width: 680px) {
 
-    .Test {
+    .TicketsButton {
         margin-top: 10px;
     }
 }
 
 @media screen and (max-width: 480px) {
 
-    .Ticket {
+    .BuyButton {
         font-size: 17px;
         padding: 10px 20px;
     }
 
-    .Test {
+    .TicketsButton {
         font-size: 17px;
         margin-top: 10px;
     }
