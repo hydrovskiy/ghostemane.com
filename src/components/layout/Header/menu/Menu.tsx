@@ -3,8 +3,8 @@ import Link from 'next/link';
 import style from './Menu.module.scss';
 
 function Menu() {
-    return (
-    <div>
+	return (
+	<div>
     <nav className={style.Menu}>
         <Link href='/'>
             <h1>Brand</h1>
@@ -15,8 +15,8 @@ function Menu() {
             <li><Link href='#tours'>Tours</Link></li>
         </ul>
     </nav>
-    </div>
-    );
+	</div>
+	);
 }
 
 export default Menu;

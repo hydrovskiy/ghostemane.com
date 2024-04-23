@@ -20,7 +20,7 @@
     "baseUrl": "app",
     "paths": {
       "@/*": [ "../src/*" ],
-      "@/styles/*": [ "../src/assets/styles/*" ],
+      "@/assets/*": [ "../src/assets/*" ],
       "@/components/*": [ "../src/components/*" ],
       "@/screens/*": [ "../src/components/screens/*" ],
       "@/ui/*": [ "../src/components/ui/*" ]

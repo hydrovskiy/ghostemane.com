@@ -29,6 +29,7 @@ function Home() {
                     <BuyButton />
 
                     <Releases />
+                    
                     <Tours />
                 </div>
             </div>
