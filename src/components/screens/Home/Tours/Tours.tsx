@@ -1,15 +1,17 @@
-import Image from 'next/image'
+import Image from 'next/image';
 
-import { TourInfo } from '@/ui/TourInfo/TourInfo'
-import styles from './Tours.module.scss'
+import { TourInfo } from '@/ui/TourInfo/TourInfo';
+import style from './Tours.module.scss';
 
-export function Tours() {
+function Tours() {
     return (
-    <section className = {styles.Tours} id = 'tours'>
-    <Image className = {styles.Title} src = 'Tour.svg' alt = 'Tours Title' width = { 700 } height = { 100 } />
-        <div className = {styles.Container}>
-            <TourInfo />
-        </div>
+    <section className={style.Tours} id='tours'>
+        <Image className = {style.Title} src = 'Tour.svg' alt = 'Tours Title' width = { 700 } height = { 100 } />
+            <div className = {style.Container}>
+                <TourInfo />
+            </div>
     </section>
-    )
+    );
 }
+
+export default Tours;

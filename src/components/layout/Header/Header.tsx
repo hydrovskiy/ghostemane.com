@@ -1,8 +1,12 @@
-import styles from './Header.module.scss'
-import Menu from './menu/Menu'
+import Menu from './menu/Menu';
+import style from './Header.module.scss';
 
-export function Header() {
-    return <header className = {styles.Header}>
+function Header() {
+    return (
+    <header className={style.Header}>
         <Menu />
     </header>
+    );
 }
+
+export default Header;
